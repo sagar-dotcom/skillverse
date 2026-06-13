@@ -1,6 +1,6 @@
-/* ===================================
+/* =====================================
    RESET
-=================================== */
+===================================== */
 
 *{
     margin:0;
@@ -13,15 +13,15 @@ html{
 }
 
 body{
-    font-family:Segoe UI, sans-serif;
+    font-family:'Segoe UI',sans-serif;
     background:#f5f7fb;
     color:#222;
     line-height:1.6;
 }
 
-/* ===================================
+/* =====================================
    NAVBAR
-=================================== */
+===================================== */
 
 .navbar{
     position:sticky;
@@ -32,10 +32,10 @@ body{
     justify-content:space-between;
     align-items:center;
 
-    padding:18px 50px;
+    padding:18px 40px;
 
     background:#081c36;
-    box-shadow:0 2px 10px rgba(0,0,0,0.15);
+    box-shadow:0 2px 10px rgba(0,0,0,.15);
 }
 
 .logo{
@@ -50,8 +50,8 @@ body{
 }
 
 .nav-links a{
-    text-decoration:none;
     color:white;
+    text-decoration:none;
     transition:.3s;
 }
 
@@ -59,19 +59,19 @@ body{
     color:#ffcc33;
 }
 
-/* ===================================
+/* =====================================
    HERO
-=================================== */
+===================================== */
 
 .hero{
-    min-height:85vh;
+    min-height:80vh;
 
     display:flex;
-    align-items:center;
     justify-content:center;
+    align-items:center;
     text-align:center;
 
-    padding:50px;
+    padding:60px 20px;
 
     background:
     linear-gradient(
@@ -91,20 +91,19 @@ body{
 .badge{
     display:inline-block;
 
-    padding:10px 22px;
+    padding:10px 20px;
 
     border-radius:50px;
 
-    background:rgba(255,255,255,0.15);
+    background:rgba(255,255,255,.15);
 
-    margin-bottom:25px;
+    margin-bottom:20px;
 
     font-size:14px;
-    letter-spacing:1px;
 }
 
 .hero h1{
-    font-size:72px;
+    font-size:64px;
     line-height:1.1;
     margin-bottom:25px;
 }
@@ -118,14 +117,14 @@ body{
 .btn{
     display:inline-block;
 
-    margin-top:35px;
-
-    padding:15px 35px;
-
-    border-radius:12px;
+    margin-top:30px;
 
     background:white;
     color:#0a2540;
+
+    padding:14px 30px;
+
+    border-radius:12px;
 
     text-decoration:none;
     font-weight:700;
@@ -137,30 +136,27 @@ body{
     transform:translateY(-4px);
 }
 
-/* ===================================
-   SECTIONS
-=================================== */
+/* =====================================
+   COMMON SECTIONS
+===================================== */
 
 .section{
     width:90%;
-    max-width:1400px;
-
+    max-width:1300px;
     margin:auto;
-
-    padding:90px 0;
+    padding:80px 0;
 }
 
 .section h2{
     text-align:center;
     margin-bottom:50px;
-
     color:#0a2540;
-    font-size:42px;
+    font-size:40px;
 }
 
-/* ===================================
-   ROADMAP GRID
-=================================== */
+/* =====================================
+   ROADMAP
+===================================== */
 
 .roadmap-grid{
     display:grid;
@@ -172,15 +168,10 @@ body{
 }
 
 .roadmap-card{
-
-    border-radius:22px;
-
     padding:30px;
-
+    border-radius:20px;
     color:white;
-
     transition:.3s;
-
     cursor:pointer;
 }
 
@@ -189,8 +180,8 @@ body{
 }
 
 .roadmap-card h3{
-    font-size:28px;
     margin-bottom:10px;
+    font-size:28px;
 }
 
 .level1{
@@ -229,53 +220,33 @@ body{
     );
 }
 
-/* ===================================
+/* =====================================
    JOURNEY
-=================================== */
+===================================== */
 
 .journey{
-
     background:white;
-
     text-align:center;
-
     padding:100px 20px;
 }
 
 .journey h2{
     color:#0a2540;
-    margin-bottom:40px;
+    margin-bottom:30px;
 }
 
 .journey-path{
-
-    font-size:30px;
-
+    font-size:28px;
     font-weight:700;
-
     color:#123c69;
-
     line-height:2;
 }
 
-/* ===================================
-   SPECIALIZATION
-=================================== */
-
-.specializations{
-
-    padding:100px 20px;
-
-    background:#eef4fb;
-}
-
-.specializations h2{
-    text-align:center;
-    margin-bottom:50px;
-}
+/* =====================================
+   CARDS
+===================================== */
 
 .cards{
-
     max-width:1300px;
     margin:auto;
 
@@ -288,31 +259,46 @@ body{
 }
 
 .card{
-
     background:white;
 
-    padding:30px;
+    padding:25px;
 
     border-radius:20px;
 
-    text-align:center;
-
-    font-size:20px;
-    font-weight:600;
-
     box-shadow:
-    0 8px 25px rgba(0,0,0,0.08);
+    0 8px 25px rgba(0,0,0,.08);
 
     transition:.3s;
+
+    text-align:center;
 }
 
 .card:hover{
     transform:translateY(-8px);
 }
 
-/* ===================================
+.card h3{
+    margin-bottom:12px;
+    color:#0a2540;
+}
+
+/* =====================================
+   SPECIALIZATION
+===================================== */
+
+.specializations{
+    background:#eef4fb;
+    padding:100px 20px;
+}
+
+.specializations h2{
+    text-align:center;
+    margin-bottom:50px;
+}
+
+/* =====================================
    CAREER
-=================================== */
+===================================== */
 
 .career{
     padding:100px 20px;
@@ -324,9 +310,7 @@ body{
 }
 
 .career-grid{
-
     max-width:1300px;
-
     margin:auto;
 
     display:grid;
@@ -338,20 +322,18 @@ body{
 }
 
 .career-card{
-
     background:white;
 
-    padding:30px;
+    padding:25px;
 
     border-radius:20px;
 
     text-align:center;
 
-    font-size:22px;
     font-weight:700;
 
     box-shadow:
-    0 8px 25px rgba(0,0,0,0.08);
+    0 8px 25px rgba(0,0,0,.08);
 
     transition:.3s;
 }
@@ -360,14 +342,12 @@ body{
     transform:translateY(-8px);
 }
 
-/* ===================================
+/* =====================================
    CERTIFICATIONS
-=================================== */
+===================================== */
 
 .certifications{
-
     background:#eef4fb;
-
     padding:100px 20px;
 }
 
@@ -376,18 +356,89 @@ body{
     margin-bottom:50px;
 }
 
-/* ===================================
-   FOOTER
-=================================== */
+/* =====================================
+   PAYMENT ECOSYSTEM PAGE
+===================================== */
 
-footer{
+.story-box{
+    max-width:1000px;
+    margin:auto;
+}
 
-    background:#061627;
+.story-step{
+    background:white;
 
-    color:white;
+    padding:20px;
+
+    margin-bottom:15px;
+
+    border-radius:15px;
+
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.story-step:hover{
+    transform:translateY(-3px);
+}
+
+.success{
+    background:#dcfce7;
+    border-left:5px solid #22c55e;
+}
+
+.payment-flow{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+
+    margin-top:40px;
+}
+
+.flow-card{
+    width:180px;
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:20px;
 
     text-align:center;
 
+    box-shadow:
+    0 5px 15px rgba(0,0,0,.08);
+
+    transition:.3s;
+}
+
+.flow-card:hover{
+    transform:translateY(-5px);
+}
+
+.flow-card h3{
+    margin-top:10px;
+    color:#0a2540;
+}
+
+.arrow{
+    font-size:32px;
+    font-weight:bold;
+    color:#2563eb;
+}
+
+/* =====================================
+   FOOTER
+===================================== */
+
+footer{
+    background:#061627;
+    color:white;
+    text-align:center;
     padding:50px 20px;
 }
 
@@ -404,9 +455,9 @@ footer a{
     text-decoration:none;
 }
 
-/* ===================================
+/* =====================================
    MOBILE
-=================================== */
+===================================== */
 
 @media(max-width:768px){
 
@@ -422,7 +473,7 @@ footer a{
     }
 
     .hero h1{
-        font-size:42px;
+        font-size:40px;
     }
 
     .hero p{
@@ -430,48 +481,23 @@ footer a{
     }
 
     .section h2{
-        font-size:32px;
+        font-size:30px;
     }
 
     .journey-path{
         font-size:22px;
     }
-}
-.story-box{
-    max-width:1000px;
-    margin:auto;
-}
 
-.story-step{
-    background:white;
-    padding:20px;
-    margin-bottom:15px;
-    border-radius:15px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
+    .payment-flow{
+        flex-direction:column;
+    }
 
-.success{
-    background:#dcfce7;
-}
+    .arrow{
+        transform:rotate(90deg);
+    }
 
-.payment-flow{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:center;
-    align-items:center;
-    gap:15px;
-}
-
-.flow-card{
-    width:180px;
-    background:white;
-    padding:25px;
-    text-align:center;
-    border-radius:20px;
-    box-shadow:0 5px 15px rgba(0,0,0,.08);
-}
-
-.arrow{
-    font-size:32px;
-    font-weight:bold;
+    .flow-card{
+        width:100%;
+        max-width:280px;
+    }
 }
