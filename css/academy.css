@@ -437,3 +437,41 @@ footer a{
         font-size:22px;
     }
 }
+.story-box{
+    max-width:1000px;
+    margin:auto;
+}
+
+.story-step{
+    background:white;
+    padding:20px;
+    margin-bottom:15px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.success{
+    background:#dcfce7;
+}
+
+.payment-flow{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+}
+
+.flow-card{
+    width:180px;
+    background:white;
+    padding:25px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+}
+
+.arrow{
+    font-size:32px;
+    font-weight:bold;
+}
